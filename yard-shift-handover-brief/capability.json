@@ -1,0 +1,47 @@
+{
+  "id": "yard-shift-handover-brief",
+  "name": "Yard shift handover brief",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The outgoing yard or warehouse lead hands the incoming lead one brief: where each trailer stands, how long it has been on site, which dock issues are open and who follows up on each. No trailer is moved and no appointment is changed.",
+  "directory": "https://fullypowered.ai/capabilities/yard-shift-handover-brief/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/logistics-and-trade",
+    "industries/manufacturing",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "weekly-open-matter-check",
+    "account-handoff",
+    "shipment-documentation-check"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of yard and warehouse shift handover: a yard export, a gate log, an appointment board, exception notes and confirmed dispatch updates, each with set column headers; every trailer shown with its status and dwell time; every conflict, unknown and stale export shown rather than settled; and every open item given a follow-up owner and a question for the outgoing lead, the incoming lead or dispatch."
+    }
+  ]
+}

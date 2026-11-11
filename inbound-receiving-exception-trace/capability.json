@@ -1,0 +1,48 @@
+{
+  "id": "inbound-receiving-exception-trace",
+  "name": "Inbound receiving exception trace",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When what arrived does not match the advance shipment notice, the receiving supervisor or inventory controller gets the notice, the packing list and the scans side by side by item and lot, with missing references and questions to investigate. Nothing is adjusted and nobody is contacted.",
+  "directory": "https://fullypowered.ai/capabilities/inbound-receiving-exception-trace/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/procurement-and-suppliers"
+  ],
+  "industries": [
+    "industries/logistics-and-trade",
+    "industries/ecommerce-and-retail",
+    "industries/manufacturing",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "stock-count-reconciliation",
+    "shipment-documentation-check",
+    "supplier-delivery-date-check"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of receiving work: an advance shipment notice, a packing list, a receiving scan export and an item master, each with set column headers; quantities brought to one unit and compared by item and lot across all three records; every difference read against where the records agree and disagree; missing references listed; and each open point written as a question for the receiving supervisor and the inventory controller."
+    }
+  ]
+}

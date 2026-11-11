@@ -1,0 +1,47 @@
+{
+  "id": "freight-shortage-record-packet",
+  "name": "Freight shortage record packet",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a receiver reports missing or damaged freight, the claims coordinator gets one packet lining up dispatch quantities, warehouse scans, bill of lading, proof of delivery, photos and the customer report, with each unanswered question listed. It assigns no fault and sends nothing.",
+  "directory": "https://fullypowered.ai/capabilities/freight-shortage-record-packet/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service",
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/logistics-and-trade",
+    "industries/ecommerce-and-retail",
+    "industries/manufacturing"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "complaint-and-refund-request-handling",
+    "batch-distribution-trace",
+    "shipment-documentation-check"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of freight claims preparation: a customer report of missing or damaged freight set against the dispatch quantities, the warehouse scans, the bill of lading, the proof of delivery and the photo log, each with set column headers; one quantity chain per line; every absent record kept apart from every disagreeing figure; and each unanswered question written for the claims coordinator."
+    }
+  ]
+}

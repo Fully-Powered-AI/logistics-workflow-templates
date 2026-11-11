@@ -1,0 +1,47 @@
+{
+  "id": "missed-dock-recovery-brief",
+  "name": "Missed dock window recovery brief",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The dispatch supervisor gets one brief when a truck misses its dock appointment and the reports disagree: each stated arrival time, the receiving cutoff, the appointment record and the questions that need a decision. It contacts no one and books nothing.",
+  "directory": "https://fullypowered.ai/capabilities/missed-dock-recovery-brief/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/logistics-and-trade",
+    "industries/manufacturing",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "unshipped-order-review",
+    "supplier-delivery-date-check",
+    "carrier-performance-review"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of logistics work: an appointment record and a log of reports in set layouts that stop on a mismatch; every stated arrival time kept and measured in minutes against the window end and the cutoff; the latest report from each source compared; a cutoff that differs from the record shown beside it; acceptance of a late arrival counted as confirmed only when it comes from the receiver; fee terms quoted from the record and never calculated; and a fixed set of questions for the dispatch supervisor."
+    }
+  ]
+}

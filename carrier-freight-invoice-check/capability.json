@@ -1,0 +1,47 @@
+{
+  "id": "carrier-freight-invoice-check",
+  "name": "Carrier freight invoice check",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The freight auditor gets a carrier invoice checked line by line against the shipment export and the rate confirmation: duplicate lines, rate differences and extra charges with no delivery or waiting-time record, each tied to its shipment. Accounts payable decides what to pay or dispute.",
+  "directory": "https://fullypowered.ai/capabilities/carrier-freight-invoice-check/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/logistics-and-trade",
+    "industries/manufacturing",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "supplier-bill-review-and-payment-run-preparation",
+    "carrier-performance-review",
+    "product-landed-cost-worksheet"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of logistics and trade work, which informed the method, the default column headers, the order in which a line is judged and the worked example."
+    }
+  ]
+}

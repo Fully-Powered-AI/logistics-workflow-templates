@@ -1,0 +1,47 @@
+{
+  "id": "bill-of-lading-field-check",
+  "name": "Bill of lading field check",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a draft bill of lading arrives before it is issued, the documentation specialist gets a field-by-field comparison with the booking, the shipper's instructions and the packing list, with every difference marked. Nothing is issued or corrected.",
+  "directory": "https://fullypowered.ai/capabilities/bill-of-lading-field-check/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/logistics-and-trade",
+    "industries/manufacturing",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "shipment-documentation-check",
+    "supplier-bill-review-and-payment-run-preparation",
+    "carrier-performance-review"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design, written from its published map of freight documentation work: a draft bill of lading compared field by field with the booking and the shipper's instructions, and container by container with the packing list, each difference marked and each open point written as a question for the documentation specialist."
+    }
+  ]
+}
