@@ -2,7 +2,7 @@
 
 When a receiver reports missing or damaged freight, the claims coordinator gets one packet lining up dispatch quantities, warehouse scans, bill of lading, proof of delivery, photos and the customer report, with each unanswered question listed. It assigns no fault and sends nothing.
 
-*Workflow template · Logistics and trade · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/freight-shortage-record-packet/)*
+*Workflow template · Logistics and trade · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/freight-shortage-record-packet/)*
 
 ## The outcome
 
@@ -90,9 +90,9 @@ Testing in your environment means running it on a recent report your claims coor
 
 ## Related workflow templates
 
-- [Complaint and refund request handling](https://fullypowered.ai/workflow templates/complaint-and-refund-request-handling/)
-- [Batch distribution trace](https://fullypowered.ai/workflow templates/batch-distribution-trace/)
-- [Shipment documentation check](https://fullypowered.ai/workflow templates/shipment-documentation-check/)
+- [Complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/)
+- [Batch distribution trace](https://fullypowered.ai/workflows/batch-distribution-trace/)
+- [Shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/)
 
 ## Make it yours
 

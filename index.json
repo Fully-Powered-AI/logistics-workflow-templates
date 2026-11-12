@@ -9,7 +9,7 @@
       "version": "0.1.0",
       "summary": "When a draft bill of lading arrives before it is issued, the documentation specialist gets a field-by-field comparison with the booking, the shipper's instructions and the packing list, with every difference marked. Nothing is issued or corrected.",
       "path": "bill-of-lading-field-check/",
-      "directory": "https://fullypowered.ai/workflow templates/bill-of-lading-field-check/"
+      "directory": "https://fullypowered.ai/workflows/bill-of-lading-field-check/"
     },
     {
       "id": "carrier-freight-invoice-check",
@@ -17,7 +17,7 @@
       "version": "0.1.0",
       "summary": "The freight auditor gets a carrier invoice checked line by line against the shipment export and the rate confirmation: duplicate lines, rate differences and extra charges with no delivery or waiting-time record, each tied to its shipment. Accounts payable decides what to pay or dispute.",
       "path": "carrier-freight-invoice-check/",
-      "directory": "https://fullypowered.ai/workflow templates/carrier-freight-invoice-check/"
+      "directory": "https://fullypowered.ai/workflows/carrier-freight-invoice-check/"
     },
     {
       "id": "freight-shortage-record-packet",
@@ -25,7 +25,7 @@
       "version": "0.1.0",
       "summary": "When a receiver reports missing or damaged freight, the claims coordinator gets one packet lining up dispatch quantities, warehouse scans, bill of lading, proof of delivery, photos and the customer report, with each unanswered question listed. It assigns no fault and sends nothing.",
       "path": "freight-shortage-record-packet/",
-      "directory": "https://fullypowered.ai/workflow templates/freight-shortage-record-packet/"
+      "directory": "https://fullypowered.ai/workflows/freight-shortage-record-packet/"
     },
     {
       "id": "inbound-receiving-exception-trace",
@@ -33,7 +33,7 @@
       "version": "0.1.0",
       "summary": "When what arrived does not match the advance shipment notice, the receiving supervisor or inventory controller gets the notice, the packing list and the scans side by side by item and lot, with missing references and questions to investigate. Nothing is adjusted and nobody is contacted.",
       "path": "inbound-receiving-exception-trace/",
-      "directory": "https://fullypowered.ai/workflow templates/inbound-receiving-exception-trace/"
+      "directory": "https://fullypowered.ai/workflows/inbound-receiving-exception-trace/"
     },
     {
       "id": "missed-dock-recovery-brief",
@@ -41,7 +41,7 @@
       "version": "0.1.0",
       "summary": "The dispatch supervisor gets one brief when a truck misses its dock appointment and the reports disagree: each stated arrival time, the receiving cutoff, the appointment record and the questions that need a decision. It contacts no one and books nothing.",
       "path": "missed-dock-recovery-brief/",
-      "directory": "https://fullypowered.ai/workflow templates/missed-dock-recovery-brief/"
+      "directory": "https://fullypowered.ai/workflows/missed-dock-recovery-brief/"
     },
     {
       "id": "yard-shift-handover-brief",
@@ -49,7 +49,7 @@
       "version": "0.1.0",
       "summary": "The outgoing yard or warehouse lead hands the incoming lead one brief: where each trailer stands, how long it has been on site, which dock issues are open and who follows up on each. No trailer is moved and no appointment is changed.",
       "path": "yard-shift-handover-brief/",
-      "directory": "https://fullypowered.ai/workflow templates/yard-shift-handover-brief/"
+      "directory": "https://fullypowered.ai/workflows/yard-shift-handover-brief/"
     }
   ]
 }

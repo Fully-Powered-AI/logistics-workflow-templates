@@ -2,7 +2,7 @@
 
 The freight auditor gets a carrier invoice checked line by line against the shipment export and the rate confirmation: duplicate lines, rate differences and extra charges with no delivery or waiting-time record, each tied to its shipment. Accounts payable decides what to pay or dispute.
 
-*Workflow template · Logistics and trade · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/carrier-freight-invoice-check/)*
+*Workflow template · Logistics and trade · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/carrier-freight-invoice-check/)*
 
 ## The outcome
 
@@ -85,9 +85,9 @@ Testing in your environment means running it on invoices your freight auditor ha
 
 ## Related workflow templates
 
-- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflow templates/supplier-bill-review-and-payment-run-preparation/)
-- [Carrier performance review](https://fullypowered.ai/workflow templates/carrier-performance-review/)
-- [Product landed cost worksheet](https://fullypowered.ai/workflow templates/product-landed-cost-worksheet/)
+- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/)
+- [Carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/)
+- [Product landed cost worksheet](https://fullypowered.ai/workflows/product-landed-cost-worksheet/)
 
 ## Make it yours
 

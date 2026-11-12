@@ -2,7 +2,7 @@
 
 The dispatch supervisor gets one brief when a truck misses its dock appointment and the reports disagree: each stated arrival time, the receiving cutoff, the appointment record and the questions that need a decision. It contacts no one and books nothing.
 
-*Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/missed-dock-recovery-brief/)*
+*Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/missed-dock-recovery-brief/)*
 
 ## The outcome
 
@@ -85,9 +85,9 @@ Testing in your environment means running it on a missed appointment your superv
 
 ## Related workflow templates
 
-- [Unshipped order review](https://fullypowered.ai/workflow templates/unshipped-order-review/)
-- [Supplier delivery date check](https://fullypowered.ai/workflow templates/supplier-delivery-date-check/)
-- [Carrier performance review](https://fullypowered.ai/workflow templates/carrier-performance-review/)
+- [Unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/)
+- [Supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/)
+- [Carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/)
 
 ## Make it yours
 

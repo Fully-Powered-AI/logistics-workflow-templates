@@ -2,7 +2,7 @@
 
 When a draft bill of lading arrives before it is issued, the documentation specialist gets a field-by-field comparison with the booking, the shipper's instructions and the packing list, with every difference marked. Nothing is issued or corrected.
 
-*Workflow template · Logistics and trade · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/bill-of-lading-field-check/)*
+*Workflow template · Logistics and trade · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/bill-of-lading-field-check/)*
 
 ## The outcome
 
@@ -88,9 +88,9 @@ Testing in your environment means running it on a recent draft that your special
 
 ## Related workflow templates
 
-- [Shipment documentation check](https://fullypowered.ai/workflow templates/shipment-documentation-check/)
-- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflow templates/supplier-bill-review-and-payment-run-preparation/)
-- [Carrier performance review](https://fullypowered.ai/workflow templates/carrier-performance-review/)
+- [Shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/)
+- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/)
+- [Carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/)
 
 ## Make it yours
 

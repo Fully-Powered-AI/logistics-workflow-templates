@@ -2,7 +2,7 @@
 
 When what arrived does not match the advance shipment notice, the receiving supervisor or inventory controller gets the notice, the packing list and the scans side by side by item and lot, with missing references and questions to investigate. Nothing is adjusted and nobody is contacted.
 
-*Workflow template · Logistics and trade · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/inbound-receiving-exception-trace/)*
+*Workflow template · Logistics and trade · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/inbound-receiving-exception-trace/)*
 
 ## The outcome
 
@@ -91,9 +91,9 @@ Testing in your environment means running it on a few past deliveries your recei
 
 ## Related workflow templates
 
-- [Stock count reconciliation](https://fullypowered.ai/workflow templates/stock-count-reconciliation/)
-- [Shipment documentation check](https://fullypowered.ai/workflow templates/shipment-documentation-check/)
-- [Supplier delivery date check](https://fullypowered.ai/workflow templates/supplier-delivery-date-check/)
+- [Stock count reconciliation](https://fullypowered.ai/workflows/stock-count-reconciliation/)
+- [Shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/)
+- [Supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/)
 
 ## Make it yours
 

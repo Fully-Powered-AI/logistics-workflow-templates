@@ -2,7 +2,7 @@
 
 The outgoing yard or warehouse lead hands the incoming lead one brief: where each trailer stands, how long it has been on site, which dock issues are open and who follows up on each. No trailer is moved and no appointment is changed.
 
-*Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/yard-shift-handover-brief/)*
+*Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/yard-shift-handover-brief/)*
 
 ## The outcome
 
@@ -90,9 +90,9 @@ Testing in your environment means running it on a past shift your leads remember
 
 ## Related workflow templates
 
-- [Weekly open-matter check](https://fullypowered.ai/workflow templates/weekly-open-matter-check/)
-- [Account handoff](https://fullypowered.ai/workflow templates/account-handoff/)
-- [Shipment documentation check](https://fullypowered.ai/workflow templates/shipment-documentation-check/)
+- [Weekly open-matter check](https://fullypowered.ai/workflows/weekly-open-matter-check/)
+- [Account handoff](https://fullypowered.ai/workflows/account-handoff/)
+- [Shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/)
 
 ## Make it yours
 
