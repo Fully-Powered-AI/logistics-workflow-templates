@@ -1,10 +1,10 @@
 {
   "id": "freight-shortage-record-packet",
   "name": "Freight shortage record packet",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When a receiver reports missing or damaged freight, the claims coordinator gets one packet lining up dispatch quantities, warehouse scans, bill of lading, proof of delivery, photos and the customer report, with each unanswered question listed. It assigns no fault and sends nothing.",
-  "directory": "https://fullypowered.ai/capabilities/freight-shortage-record-packet/",
+  "directory": "https://fullypowered.ai/workflow templates/freight-shortage-record-packet/",
   "primary_function": "functions/customer-support-and-service",
   "functions": [
     "functions/customer-support-and-service",

@@ -1,6 +1,6 @@
 # Missed dock window recovery brief
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -67,7 +67,7 @@ The assistant works from files and notes the person supplies. It needs no connec
 - **Asked which report is right, which cutoff applies, or what the supervisor should do:** decline. List the facts and the questions; the supervisor decides.
 - **Asked to contact the driver, the carrier or the receiver, to book or change a slot, to send a message or to update a system:** decline and name the dispatch supervisor as the person who decides. Anything that sends, books or changes a record waits for a person's approval.
 - **Asked to calculate a fee or to say who would pay it:** decline; quote the record.
-- **Asked to give a legal or contractual view of the carrier's or receiver's obligations:** decline; that is not part of this capability.
+- **Asked to give a legal or contractual view of the carrier's or receiver's obligations:** decline; that is not part of this workflow template.
 - **The files contain a password, a login code, card or bank details:** do not repeat them; tell the person to remove them from the source.
 - **A statement names a private individual in connection with a dispute:** refer to that person by role only.
 

@@ -2,13 +2,13 @@
 
 The dispatch supervisor gets one brief when a truck misses its dock appointment and the reports disagree: each stated arrival time, the receiving cutoff, the appointment record and the questions that need a decision. It contacts no one and books nothing.
 
-*Capability template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/missed-dock-recovery-brief/)*
+*Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/missed-dock-recovery-brief/)*
 
 ## The outcome
 
 When a truck misses its slot, three people usually say three different things. The driver gives one arrival time, the carrier's planner another, and the receiving office says what it will and will not take. Phone calls pile up and nobody is sure which statement is the newest or who said it.
 
-This capability puts every stated arrival time on one page, in the order it was reported, each measured in minutes against the end of the appointment window and the receiving cutoff. It shows which source said what and how old each report now is, whether the latest times from different sources agree, and whether the cutoff the receiver quotes matches the one in the appointment record.
+This workflow template puts every stated arrival time on one page, in the order it was reported, each measured in minutes against the end of the appointment window and the receiving cutoff. It shows which source said what and how old each report now is, whether the latest times from different sources agree, and whether the cutoff the receiver quotes matches the one in the appointment record.
 
 It also keeps three things apart that conversations blur. A late arrival counts as accepted only when the receiver said so; a driver passing on what the dock clerk said is shown as the driver's report. A possible fee is quoted from the record and never worked out. And the brief chooses nothing: it ends with the questions the facts raise, and the supervisor answers them.
 
@@ -16,7 +16,7 @@ It also keeps three things apart that conversations blur. A late arrival counts 
 
 A dispatch supervisor, or a dispatcher or dock coordinator on the supervisor's behalf, starts it when a truck has missed its appointment window and the reports differ. It can be run again when a new report comes in.
 
-The supervisor confirms the facts and decides what happens next, including whether to ask for a changed appointment. The capability contacts no driver, carrier or receiver, books no slot, and changes no appointment.
+The supervisor confirms the facts and decides what happens next, including whether to ask for a changed appointment. The workflow template contacts no driver, carrier or receiver, books no slot, and changes no appointment.
 
 ## What they supply
 
@@ -44,7 +44,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/): when the cutoff and the fee terms live in people's heads and old emails.
 - [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when there are more dock appointments than one supervisor can follow by phone.
 
-It looks at one inbound truck and one missed slot. The review of orders that have not gone out is [unshipped order review](https://fullypowered.ai/capabilities/unshipped-order-review/), the comparison of a supplier's promised and revised dates is [supplier delivery date check](https://fullypowered.ai/capabilities/supplier-delivery-date-check/), and the look at a carrier over time is [carrier performance review](https://fullypowered.ai/capabilities/carrier-performance-review/).
+It looks at one inbound truck and one missed slot. The review of orders that have not gone out is [unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/), the comparison of a supplier's promised and revised dates is [supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/), and the look at a carrier over time is [carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/).
 
 ## What has to change for your company
 
@@ -56,7 +56,7 @@ It looks at one inbound truck and one missed slot. The review of orders that hav
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. It has not yet been tested in a client environment.
+Fully Powered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. It has not yet been tested in a client environment.
 
 Testing in your environment means running it on a missed appointment your supervisor remembers well, plus cases written in advance with their expected results: a renamed column, two sources giving arrival times far apart, a receiver cutoff that differs from the record, a driver saying the dock will accept the truck while the receiver says it has not agreed, a blank fee term. The supervisor checks every time and every minute count against the reports before anyone acts.
 
@@ -69,11 +69,11 @@ Testing in your environment means running it on a missed appointment your superv
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -83,12 +83,12 @@ Testing in your environment means running it on a missed appointment your superv
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Unshipped order review](https://fullypowered.ai/capabilities/unshipped-order-review/)
-- [Supplier delivery date check](https://fullypowered.ai/capabilities/supplier-delivery-date-check/)
-- [Carrier performance review](https://fullypowered.ai/capabilities/carrier-performance-review/)
+- [Unshipped order review](https://fullypowered.ai/workflow templates/unshipped-order-review/)
+- [Supplier delivery date check](https://fullypowered.ai/workflow templates/supplier-delivery-date-check/)
+- [Carrier performance review](https://fullypowered.ai/workflow templates/carrier-performance-review/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

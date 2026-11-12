@@ -1,10 +1,10 @@
 {
   "id": "missed-dock-recovery-brief",
   "name": "Missed dock window recovery brief",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The dispatch supervisor gets one brief when a truck misses its dock appointment and the reports disagree: each stated arrival time, the receiving cutoff, the appointment record and the questions that need a decision. It contacts no one and books nothing.",
-  "directory": "https://fullypowered.ai/capabilities/missed-dock-recovery-brief/",
+  "directory": "https://fullypowered.ai/workflow templates/missed-dock-recovery-brief/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",

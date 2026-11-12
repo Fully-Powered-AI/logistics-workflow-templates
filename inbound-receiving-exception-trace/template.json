@@ -1,10 +1,10 @@
 {
   "id": "inbound-receiving-exception-trace",
   "name": "Inbound receiving exception trace",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When what arrived does not match the advance shipment notice, the receiving supervisor or inventory controller gets the notice, the packing list and the scans side by side by item and lot, with missing references and questions to investigate. Nothing is adjusted and nobody is contacted.",
-  "directory": "https://fullypowered.ai/capabilities/inbound-receiving-exception-trace/",
+  "directory": "https://fullypowered.ai/workflow templates/inbound-receiving-exception-trace/",
   "primary_function": "functions/supply-chain-and-inventory",
   "functions": [
     "functions/supply-chain-and-inventory",

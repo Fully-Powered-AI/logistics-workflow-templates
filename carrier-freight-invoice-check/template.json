@@ -1,10 +1,10 @@
 {
   "id": "carrier-freight-invoice-check",
   "name": "Carrier freight invoice check",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The freight auditor gets a carrier invoice checked line by line against the shipment export and the rate confirmation: duplicate lines, rate differences and extra charges with no delivery or waiting-time record, each tied to its shipment. Accounts payable decides what to pay or dispute.",
-  "directory": "https://fullypowered.ai/capabilities/carrier-freight-invoice-check/",
+  "directory": "https://fullypowered.ai/workflow templates/carrier-freight-invoice-check/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

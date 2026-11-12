@@ -2,11 +2,11 @@
 
 When a receiver reports missing or damaged freight, the claims coordinator gets one packet lining up dispatch quantities, warehouse scans, bill of lading, proof of delivery, photos and the customer report, with each unanswered question listed. It assigns no fault and sends nothing.
 
-*Capability template · Logistics and trade · Customer support and service · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/freight-shortage-record-packet/)*
+*Workflow template · Logistics and trade · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/freight-shortage-record-packet/)*
 
 ## The outcome
 
-A call comes in that six chairs were not on the pallet, or that two table tops arrived chipped. The records that could explain it sit in six places: the customer's report, the packing list, the warehouse scanner, the bill of lading, the receiver's signed delivery paper and a folder of photos. This capability reads them together and gives you the story in one page, in the order the freight travelled.
+A call comes in that six chairs were not on the pallet, or that two table tops arrived chipped. The records that could explain it sit in six places: the customer's report, the packing list, the warehouse scanner, the bill of lading, the receiver's signed delivery paper and a folder of photos. This workflow template reads them together and gives you the story in one page, in the order the freight travelled.
 
 For every line the customer reports, you see how many were dispatched, picked, loaded, written on the bill of lading and signed for, with the record behind each figure. The first place the number changes is named. A record that does not exist is listed on its own, apart from a record that exists and disagrees with another, so a missing scan is never mistaken for a count that does not match. The words written on the delivery paper and the captions on the photos are quoted exactly as they were written.
 
@@ -16,7 +16,7 @@ It ends with a numbered list of what nobody has answered yet. Deciding what the 
 
 The claims coordinator starts it the day a receiver reports a shortage or damage, once the records have been pulled for that one shipment. Run it again when a missing record turns up or the customer sends more photos.
 
-The claims coordinator verifies the packet against the originals and decides every follow-up with carriers, customers and the warehouse. The capability states no liability and no legal or claim position, approves no credit and sends nothing.
+The claims coordinator verifies the packet against the originals and decides every follow-up with carriers, customers and the warehouse. The workflow template states no liability and no legal or claim position, approves no credit and sends nothing.
 
 ## What they supply
 
@@ -48,7 +48,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/): when the packet is assembled by hand from five systems.
 - [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when reports arrive faster than one person can pull the records.
 
-It prepares the record for one shipment after a report. Working out where a production batch went is [batch distribution trace](https://fullypowered.ai/capabilities/batch-distribution-trace/). Applying your policy to a complaint and setting out a refund for approval is [complaint and refund request handling](https://fullypowered.ai/capabilities/complaint-and-refund-request-handling/). Checking the papers before goods leave is [shipment documentation check](https://fullypowered.ai/capabilities/shipment-documentation-check/).
+It prepares the record for one shipment after a report. Working out where a production batch went is [batch distribution trace](https://fullypowered.ai/workflows/batch-distribution-trace/). Applying your policy to a complaint and setting out a refund for approval is [complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/). Checking the papers before goods leave is [shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/).
 
 ## What has to change for your company
 
@@ -61,7 +61,7 @@ It prepares the record for one shipment after a report. Working out where a prod
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record is published with it. Small wording edits made to the instructions and example after that trial have not been run again. It has not yet been tested in a client environment.
+Fully Powered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record is published with it. Small wording edits made to the instructions and example after that trial have not been run again. It has not yet been tested in a client environment.
 
 Testing in your environment means running it on a recent report your claims coordinator already knows, plus hard cases written in advance with their expected results: a renamed column, a loaded scan that was never recorded, a signed quantity that differs from the bill of lading, a damaged line with no photo, a report for an item that was not dispatched. The claims coordinator checks every figure against the originals before anyone relies on the packet.
 
@@ -74,11 +74,11 @@ Testing in your environment means running it on a recent report your claims coor
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -88,12 +88,12 @@ Testing in your environment means running it on a recent report your claims coor
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Complaint and refund request handling](https://fullypowered.ai/capabilities/complaint-and-refund-request-handling/)
-- [Batch distribution trace](https://fullypowered.ai/capabilities/batch-distribution-trace/)
-- [Shipment documentation check](https://fullypowered.ai/capabilities/shipment-documentation-check/)
+- [Complaint and refund request handling](https://fullypowered.ai/workflow templates/complaint-and-refund-request-handling/)
+- [Batch distribution trace](https://fullypowered.ai/workflow templates/batch-distribution-trace/)
+- [Shipment documentation check](https://fullypowered.ai/workflow templates/shipment-documentation-check/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

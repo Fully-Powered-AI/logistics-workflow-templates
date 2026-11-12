@@ -1,6 +1,6 @@
 # Carrier freight invoice check
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -17,7 +17,7 @@ Do not use it to interpret the wording of a rate confirmation, to decide whether
 - **Runs it:** the freight audit clerk, the accounts payable clerk or an operations analyst.
 - **Verifies the match:** the freight auditor, who checks each line in question against the records.
 - **Approves payment or a dispute:** accounts payable, as the company sets it.
-- **Raises a dispute with the carrier:** the person who owns that relationship, outside this capability.
+- **Raises a dispute with the carrier:** the person who owns that relationship, outside this workflow template.
 
 ## Inputs
 

@@ -2,11 +2,11 @@
 
 When what arrived does not match the advance shipment notice, the receiving supervisor or inventory controller gets the notice, the packing list and the scans side by side by item and lot, with missing references and questions to investigate. Nothing is adjusted and nobody is contacted.
 
-*Capability template · Logistics and trade · Supply chain and inventory · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/inbound-receiving-exception-trace/)*
+*Workflow template · Logistics and trade · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/inbound-receiving-exception-trace/)*
 
 ## The outcome
 
-A truck is unloaded, the scans are in, and the counts do not agree with the advance shipment notice. Without a comparison, the first hour goes on working out which record to believe. This capability does that work in one pass. Every item and lot gets a line showing what the notice said to expect, what the supplier's packing list says was packed and what the scanners recorded, all in the item's own unit.
+A truck is unloaded, the scans are in, and the counts do not agree with the advance shipment notice. Without a comparison, the first hour goes on working out which record to believe. This workflow template does that work in one pass. Every item and lot gets a line showing what the notice said to expect, what the supplier's packing list says was packed and what the scanners recorded, all in the item's own unit.
 
 Each difference is read against the three records. Each line that differs says which records agree and which do not, so the supervisor sees at once whether the scans, the packing list or the notice stands apart. Where a shortage in one lot is matched by an unexpected quantity in another lot of the same item, the comparison says so.
 
@@ -49,7 +49,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/): when receiving differences are sorted out from memory and a shared spreadsheet.
 - [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when more deliveries a day make the habit of eyeballing the dock stop working.
 
-It compares one delivery against its notice. Comparing a physical count of stock against the books is [stock count reconciliation](https://fullypowered.ai/capabilities/stock-count-reconciliation/). Checking the papers on a finished outgoing order is [shipment documentation check](https://fullypowered.ai/capabilities/shipment-documentation-check/). Comparing supplier promised dates is [supplier delivery date check](https://fullypowered.ai/capabilities/supplier-delivery-date-check/).
+It compares one delivery against its notice. Comparing a physical count of stock against the books is [stock count reconciliation](https://fullypowered.ai/workflows/stock-count-reconciliation/). Checking the papers on a finished outgoing order is [shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/). Comparing supplier promised dates is [supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/).
 
 ## What has to change for your company
 
@@ -62,9 +62,9 @@ It compares one delivery against its notice. Comparing a physical count of stock
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template. The run found a few unclear points in the instructions, and the template was corrected for them afterwards. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template. The run found a few unclear points in the instructions, and the template was corrected for them afterwards. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a few past deliveries your receiving supervisor remembers well, with hard cases written in advance: a renamed column, a pallet scanned twice, a delivery in cartons where the notice is in single units, a lot on the packing list that the notice leaves blank, a shortage in one lot and a surplus in another, and an item that is not in the item master. The supervisor checks every line against the files and the dock before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a few past deliveries your receiving supervisor remembers well, with hard cases written in advance: a renamed column, a pallet scanned twice, a delivery in cartons where the notice is in single units, a lot on the packing list that the notice leaves blank, a shortage in one lot and a surplus in another, and an item that is not in the item master. The supervisor checks every line against the files and the dock before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -75,11 +75,11 @@ Testing in your environment means running it on a few past deliveries your recei
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -89,12 +89,12 @@ Testing in your environment means running it on a few past deliveries your recei
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Stock count reconciliation](https://fullypowered.ai/capabilities/stock-count-reconciliation/)
-- [Shipment documentation check](https://fullypowered.ai/capabilities/shipment-documentation-check/)
-- [Supplier delivery date check](https://fullypowered.ai/capabilities/supplier-delivery-date-check/)
+- [Stock count reconciliation](https://fullypowered.ai/workflow templates/stock-count-reconciliation/)
+- [Shipment documentation check](https://fullypowered.ai/workflow templates/shipment-documentation-check/)
+- [Supplier delivery date check](https://fullypowered.ai/workflow templates/supplier-delivery-date-check/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
