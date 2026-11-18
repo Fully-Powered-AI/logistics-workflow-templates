@@ -25,7 +25,7 @@
     "shipment-documentation-check"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -41,7 +41,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own design, written from its published map of freight claims preparation: a customer report of missing or damaged freight set against the dispatch quantities, the warehouse scans, the bill of lading, the proof of delivery and the photo log, each with set column headers; one quantity chain per line; every absent record kept apart from every disagreeing figure; and each unanswered question written for the claims coordinator."
+      "title": "FullyPowered AI's own design, written from its published map of freight claims preparation: a customer report of missing or damaged freight set against the dispatch quantities, the warehouse scans, the bill of lading, the proof of delivery and the photo log, each with set column headers; one quantity chain per line; every absent record kept apart from every disagreeing figure; and each unanswered question written for the claims coordinator."
     }
   ]
 }

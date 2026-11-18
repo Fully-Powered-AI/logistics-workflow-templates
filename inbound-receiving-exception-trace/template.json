@@ -26,7 +26,7 @@
     "supplier-delivery-date-check"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -42,7 +42,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own design, written from its published map of receiving work: an advance shipment notice, a packing list, a receiving scan export and an item master, each with set column headers; quantities brought to one unit and compared by item and lot across all three records; every difference read against where the records agree and disagree; missing references listed; and each open point written as a question for the receiving supervisor and the inventory controller."
+      "title": "FullyPowered AI's own design, written from its published map of receiving work: an advance shipment notice, a packing list, a receiving scan export and an item master, each with set column headers; quantities brought to one unit and compared by item and lot across all three records; every difference read against where the records agree and disagree; missing references listed; and each open point written as a question for the receiving supervisor and the inventory controller."
     }
   ]
 }

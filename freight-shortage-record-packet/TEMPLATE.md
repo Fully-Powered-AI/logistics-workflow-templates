@@ -310,4 +310,4 @@ bank details, do not repeat them; tell the person to remove them.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by Fully Powered AI. Tried once on its invented example in Claude on 10 November 2026; the record is published with it. Small wording edits made after review (unit-differs lines, rules moved into the instruction block, settings and question wording, the example, and then blank item codes on the record files, the report check without tolerance, the weekday confirmation and the invented company name) were not run again. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its invented example in Claude on 10 November 2026; the record is published with it. Small wording edits made after review (unit-differs lines, rules moved into the instruction block, settings and question wording, the example, and then blank item codes on the record files, the report check without tolerance, the weekday confirmation and the invented company name) were not run again. Not yet tested in a client environment.

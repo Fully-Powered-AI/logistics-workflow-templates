@@ -25,7 +25,7 @@
     "carrier-performance-review"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -41,7 +41,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own design, written from its published map of logistics work: an appointment record and a log of reports in set layouts that stop on a mismatch; every stated arrival time kept and measured in minutes against the window end and the cutoff; the latest report from each source compared; a cutoff that differs from the record shown beside it; acceptance of a late arrival counted as confirmed only when it comes from the receiver; fee terms quoted from the record and never calculated; and a fixed set of questions for the dispatch supervisor."
+      "title": "FullyPowered AI's own design, written from its published map of logistics work: an appointment record and a log of reports in set layouts that stop on a mismatch; every stated arrival time kept and measured in minutes against the window end and the cutoff; the latest report from each source compared; a cutoff that differs from the record shown beside it; acceptance of a late arrival counted as confirmed only when it comes from the receiver; fee terms quoted from the record and never calculated; and a fixed set of questions for the dispatch supervisor."
     }
   ]
 }

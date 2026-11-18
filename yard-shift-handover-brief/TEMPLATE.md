@@ -301,4 +301,4 @@ dispatch decide.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by Fully Powered AI. Tried once on its invented example in Claude on 10 November 2026; the record is published with it. Later edits made after review (the rule for the dispatch mark, follow-up numbering, one question per item, dates on every time, the example's timeline, the settled ambiguities and clarifications to the gate-only trailer wording, trailers left out, dwell notes and the owner of a stale file) were not run again. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its invented example in Claude on 10 November 2026; the record is published with it. Later edits made after review (the rule for the dispatch mark, follow-up numbering, one question per item, dates on every time, the example's timeline, the settled ambiguities and clarifications to the gate-only trailer wording, trailers left out, dwell notes and the owner of a stale file) were not run again. Not yet tested in a client environment.

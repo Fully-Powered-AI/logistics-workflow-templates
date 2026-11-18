@@ -25,7 +25,7 @@
     "shipment-documentation-check"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -41,7 +41,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own design, written from its published map of yard and warehouse shift handover: a yard export, a gate log, an appointment board, exception notes and confirmed dispatch updates, each with set column headers; every trailer shown with its status and dwell time; every conflict, unknown and stale export shown rather than settled; and every open item given a follow-up owner and a question for the outgoing lead, the incoming lead or dispatch."
+      "title": "FullyPowered AI's own design, written from its published map of yard and warehouse shift handover: a yard export, a gate log, an appointment board, exception notes and confirmed dispatch updates, each with set column headers; every trailer shown with its status and dwell time; every conflict, unknown and stale export shown rather than settled; and every open item given a follow-up owner and a question for the outgoing lead, the incoming lead or dispatch."
     }
   ]
 }
