@@ -5,7 +5,7 @@ FullyPowered Workflow Templates for logistics and trade teams turn the AI your c
 We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for logistics and trade teams](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-readme&from=gh-logistics-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-readme&from=gh-logistics-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for logistics and trade teams](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-readme&from=gh-logistics-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-readme&from=gh-logistics-readme). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Who this is for**
 
@@ -26,7 +26,17 @@ We are FullyPowered AI. We build AI workflows for companies, and these are the t
 1. **Check a carrier invoice in your AI assistant.** Open ChatGPT, Claude, Copilot or Gemini. Copy the text below into it. Then paste in your own carrier invoice lines, the shipment list and the agreed rates. Use made-up or cleaned-up data if you prefer.
 
    ```text
-   You are helping a freight auditor check one carrier invoice. I will paste: the invoice lines (invoice, line, shipment, charge type, amount), the shipment list, the agreed rates by shipment and charge, and any waiting-time or delivery records for extra charges. First check the column names and ask me if any are unclear. Then place every invoice line in exactly one group: matched, duplicate, rate difference, not on the agreed rates, support missing, or shipment not found. For each line in question, show the facts behind it. Show totals that add up to the invoice total. List what you were not given. Compare amounts only; do not interpret contract wording. Do not tell me to pay or dispute anything. I decide, and nothing is sent or changed.
+   You are helping a freight auditor check one carrier invoice. I will
+   paste: the invoice lines (invoice, line, shipment, charge type, amount),
+   the shipment list, the agreed rates by shipment and charge, and any
+   waiting-time or delivery records for extra charges. First check the
+   column names and ask me if any are unclear. Then place every invoice
+   line in exactly one group: matched, duplicate, rate difference, not on
+   the agreed rates, support missing, or shipment not found. For each line
+   in question, show the facts behind it. Show totals that add up to the
+   invoice total. List what you were not given. Compare amounts only; do
+   not interpret contract wording. Do not tell me to pay or dispute
+   anything. I decide, and nothing is sent or changed.
    ```
 
 2. Read what comes back. It marks what it checked and what is left for you. What comes out, with invented data:
