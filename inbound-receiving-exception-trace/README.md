@@ -4,6 +4,8 @@ When what arrived does not match the advance shipment notice, the receiving supe
 
 *Workflow template · Logistics and trade · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/inbound-receiving-exception-trace/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/inbound-receiving-exception-trace/?from=gh-inbound-receiving-exception-trace)
+
 ## The outcome
 
 A truck is unloaded, the scans are in, and the counts do not agree with the advance shipment notice. Without a comparison, the first hour goes on working out which record to believe. This workflow template does that work in one pass. Every item and lot gets a line showing what the notice said to expect, what the supplier's packing list says was packed and what the scanners recorded, all in the item's own unit.

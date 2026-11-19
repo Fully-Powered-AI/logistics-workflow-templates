@@ -4,6 +4,8 @@ The dispatch supervisor gets one brief when a truck misses its dock appointment 
 
 *Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/missed-dock-recovery-brief/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/missed-dock-recovery-brief/?from=gh-logistics-missed-dock-recovery-brief)
+
 ## The outcome
 
 When a truck misses its slot, three people usually say three different things. The driver gives one arrival time, the carrier's planner another, and the receiving office says what it will and will not take. Phone calls pile up and nobody is sure which statement is the newest or who said it.

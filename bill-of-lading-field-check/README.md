@@ -4,6 +4,8 @@ When a draft bill of lading arrives before it is issued, the documentation speci
 
 *Workflow template · Logistics and trade · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/bill-of-lading-field-check/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/bill-of-lading-field-check/?from=gh-logistics-bill-of-lading-field-check)
+
 ## The outcome
 
 A bill of lading is far easier to fix before it is issued than after. A consignee spelled two ways, a port of discharge that was changed on the booking and not on the draft, a seal number with two digits swapped: each of these costs a few minutes now and a good deal more once the document is out. This workflow template makes the comparison in one pass, while the draft is still a draft.

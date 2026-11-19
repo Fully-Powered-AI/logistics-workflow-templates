@@ -4,6 +4,8 @@ The outgoing yard or warehouse lead hands the incoming lead one brief: where eac
 
 *Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/yard-shift-handover-brief/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/yard-shift-handover-brief/?from=gh-logistics-yard-shift-handover-brief)
+
 ## The outcome
 
 A shift change is where yard knowledge goes missing. The outgoing lead knows that one trailer has been parked since yesterday, that a dock door has a damaged seal, and that nobody is sure where another trailer was left. The incoming lead usually hears some of it standing at the gate. This workflow template puts it on one page before the handover.

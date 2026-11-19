@@ -4,6 +4,8 @@ The freight auditor gets a carrier invoice checked line by line against the ship
 
 *Workflow template · Logistics and trade · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/carrier-freight-invoice-check/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/carrier-freight-invoice-check/?from=gh-carrier-freight-invoice-check)
+
 ## The outcome
 
 When a carrier invoice arrives with extras on it, or a total that is not what the shipments led you to expect, the freight auditor has one page that shows where every line stands. Each line is matched to its shipment and to the amount the rate confirmation gave for that charge, and each ends in exactly one place: matched, duplicate, rate difference, not on the rate confirmation, support missing, or shipment not found.

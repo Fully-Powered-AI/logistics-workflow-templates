@@ -4,6 +4,8 @@ When a receiver reports missing or damaged freight, the claims coordinator gets 
 
 *Workflow template · Logistics and trade · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/freight-shortage-record-packet/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/freight-shortage-record-packet/?from=gh-freight-shortage-record-packet)
+
 ## The outcome
 
 A call comes in that six chairs were not on the pallet, or that two table tops arrived chipped. The records that could explain it sit in six places: the customer's report, the packing list, the warehouse scanner, the bill of lading, the receiver's signed delivery paper and a folder of photos. This workflow template reads them together and gives you the story in one page, in the order the freight travelled.
