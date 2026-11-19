@@ -28,7 +28,7 @@ The freight auditor or an accounts payable clerk starts it when a carrier invoic
 ## What they supply
 
 - **The carrier invoice,** one row per charge line: invoice, line number, shipment, carrier, charge type and amount.
-- **The shipment export** for the shipments billed: shipment, carrier, ship date, lane and delivered date.
+- **The shipment export** from your transport management system for the shipments billed: shipment, carrier, ship date, lane and delivered date.
 - **The rate confirmation,** one row per agreed charge: shipment, charge type and confirmed amount.
 - **Delivery and waiting-time records** for any extra charge: shipment, charge type, the kind of record, and arrival and departure times where they apply.
 - **The settings:** the invoice date, today's date, the roles involved, the currency, how far an amount may differ and still match, and, only if your rate confirmation states it, the free waiting minutes.
