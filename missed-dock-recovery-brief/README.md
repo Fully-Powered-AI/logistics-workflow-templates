@@ -1,10 +1,17 @@
 # Missed dock window recovery brief
 
-The dispatch supervisor gets one brief when a truck misses its dock appointment and the reports disagree: each stated arrival time, the receiving cutoff, the appointment record and the questions that need a decision. It contacts no one and books nothing.
+After a missed dock slot, a supervisor gets one brief with the arrival times reported, the receiving cutoff and open questions to decide. It books nothing.
 
-*Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/missed-dock-recovery-brief/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Missed dock window recovery brief on our website](https://fullypowered.ai/workflows/missed-dock-recovery-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/missed-dock-recovery-brief/?from=gh-logistics-missed-dock-recovery-brief)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/missed-dock-recovery-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief)*
 
 ## The outcome
 
@@ -38,15 +45,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/): a repeatable way to turn a scramble of calls into one set of facts.
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/): inbound loads that stock, production or customer orders are waiting on.
-- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/): carriers, dock appointments and receiving cutoffs are the daily material.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/): a late inbound load can hold up a production run that was scheduled around it.
-- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/): inbound stock to a fulfilment site on a booked dock slot.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): when the cutoff and the fee terms live in people's heads and old emails.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when there are more dock appointments than one supervisor can follow by phone.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief): a repeatable way to turn a scramble of calls into one set of facts.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief): inbound loads that stock, production or customer orders are waiting on.
+- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief): carriers, dock appointments and receiving cutoffs are the daily material.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief): a late inbound load can hold up a production run that was scheduled around it.
+- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief): inbound stock to a fulfilment site on a booked dock slot.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief): when the cutoff and the fee terms live in people's heads and old emails.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief): when there are more dock appointments than one supervisor can follow by phone.
 
-It looks at one inbound truck and one missed slot. The review of orders that have not gone out is [unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/), the comparison of a supplier's promised and revised dates is [supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/), and the look at a carrier over time is [carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/).
+It looks at one inbound truck and one missed slot. The review of orders that have not gone out is [unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief), the comparison of a supplier's promised and revised dates is [supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief), and the look at a carrier over time is [carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief).
 
 ## What has to change for your company
 
@@ -87,10 +94,10 @@ Testing in your environment means running it on a missed appointment your superv
 
 ## Related workflow templates
 
-- [Unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/)
-- [Supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/)
-- [Carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/)
+- [Unshipped order review](https://fullypowered.ai/workflows/unshipped-order-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief)
+- [Supplier delivery date check](https://fullypowered.ai/workflows/supplier-delivery-date-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief)
+- [Carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief).

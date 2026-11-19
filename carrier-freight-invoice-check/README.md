@@ -1,10 +1,17 @@
 # Carrier freight invoice check
 
-The freight auditor gets a carrier invoice checked line by line against the shipment export and the rate confirmation: duplicate lines, rate differences and extra charges with no delivery or waiting-time record, each tied to its shipment. Accounts payable decides what to pay or dispute.
+Check a carrier invoice line by line against the shipment export and rate confirmation. Accounts payable decides what to pay or dispute.
 
-*Workflow template · Logistics and trade · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/carrier-freight-invoice-check/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Carrier freight invoice check on our website](https://fullypowered.ai/workflows/carrier-freight-invoice-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/carrier-freight-invoice-check/?from=gh-carrier-freight-invoice-check)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Logistics and trade · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/carrier-freight-invoice-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check)*
 
 ## The outcome
 
@@ -36,15 +43,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/): the check that sits between receiving a carrier invoice and approving it, on one fixed method whoever runs it.
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/): freight charges read against the shipments that caused them.
-- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/): businesses that book freight through several carriers and receive invoices in their own formats.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/): inbound and outbound freight where accessorial charges creep into invoices.
-- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/): parcel and freight invoices with many small lines, where one repeated line is easy to miss.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when freight volume has outgrown a spot check.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): when rate confirmations and invoices have been matched by eye for years.
+- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check): the check that sits between receiving a carrier invoice and approving it, on one fixed method whoever runs it.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check): freight charges read against the shipments that caused them.
+- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check): businesses that book freight through several carriers and receive invoices in their own formats.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check): inbound and outbound freight where accessorial charges creep into invoices.
+- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check): parcel and freight invoices with many small lines, where one repeated line is easy to miss.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check): when freight volume has outgrown a spot check.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check): when rate confirmations and invoices have been matched by eye for years.
 
-Checking supplier bills for goods and services before a payment run is [supplier bill review and payment run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/). Comparing carriers on delivery, damage and cost across a period is [carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/). This workflow template looks at one carrier's invoice.
+Checking supplier bills for goods and services before a payment run is [supplier bill review and payment run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check). Comparing carriers on delivery, damage and cost across a period is [carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check). This workflow template looks at one carrier's invoice.
 
 ## What has to change for your company
 
@@ -60,7 +67,7 @@ Checking supplier bills for goods and services before a payment run is [supplier
 
 FullyPowered AI wrote this workflow template in its own words. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. Any edits made after the trial have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on invoices your freight auditor has already checked by hand, plus hard cases written in advance, each with its expected behavior: a renamed column, a repeated line, a charge on a shipment not in the export, a detention charge with no departure time, a credit line. The freight auditor checks every figure against the invoice and the rate confirmation before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on invoices your freight auditor has already checked by hand, plus hard cases written in advance, each with its expected behavior: a renamed column, a repeated line, a charge on a shipment not in the export, a detention charge with no departure time, a credit line. The freight auditor checks every figure against the invoice and the rate confirmation before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -87,10 +94,10 @@ Testing in your environment means running it on invoices your freight auditor ha
 
 ## Related workflow templates
 
-- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/)
-- [Carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/)
-- [Product landed cost worksheet](https://fullypowered.ai/workflows/product-landed-cost-worksheet/)
+- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check)
+- [Carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check)
+- [Product landed cost worksheet](https://fullypowered.ai/workflows/product-landed-cost-worksheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check).

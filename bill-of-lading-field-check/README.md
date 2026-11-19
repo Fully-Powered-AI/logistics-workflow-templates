@@ -1,10 +1,17 @@
 # Bill of lading field check
 
-When a draft bill of lading arrives before it is issued, the documentation specialist gets a field-by-field comparison with the booking, the shipper's instructions and the packing list, with every difference marked. Nothing is issued or corrected.
+Compare a draft bill of lading with the booking, instructions and packing list, every difference marked. A specialist decides; nothing is issued.
 
-*Workflow template · Logistics and trade · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/bill-of-lading-field-check/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Bill of lading field check on our website](https://fullypowered.ai/workflows/bill-of-lading-field-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/bill-of-lading-field-check/?from=gh-logistics-bill-of-lading-field-check)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Logistics and trade · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/bill-of-lading-field-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check)*
 
 ## The outcome
 
@@ -40,15 +47,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/): the document that travels with the goods has to describe the goods that were booked and packed.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/): a fixed pre-issue check that does not depend on one person's memory.
-- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/): forwarding and shipper documentation desks, where several drafts arrive each day.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/): exporters who prepare their own shipping instructions and want the draft checked against them.
-- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/): sellers and importers moving full containers of stock.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when shipment volume has outgrown a check done by eye.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): when the check lives with one experienced person.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check): the document that travels with the goods has to describe the goods that were booked and packed.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check): a fixed pre-issue check that does not depend on one person's memory.
+- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check): forwarding and shipper documentation desks, where several drafts arrive each day.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check): exporters who prepare their own shipping instructions and want the draft checked against them.
+- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check): sellers and importers moving full containers of stock.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check): when shipment volume has outgrown a check done by eye.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check): when the check lives with one experienced person.
 
-It checks one draft bill of lading against the booking, the instructions and the packing list. Checking a finished order's records and certificates before goods leave is [shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/). Checking supplier bills and preparing a payment run is [supplier bill review and payment run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/). Reviewing how carriers have performed is [carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/).
+It checks one draft bill of lading against the booking, the instructions and the packing list. Checking a finished order's records and certificates before goods leave is [shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check). Checking supplier bills and preparing a payment run is [supplier bill review and payment run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check). Reviewing how carriers have performed is [carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check).
 
 ## What has to change for your company
 
@@ -90,10 +97,10 @@ Testing in your environment means running it on a recent draft that your special
 
 ## Related workflow templates
 
-- [Shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/)
-- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/)
-- [Carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/)
+- [Shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check)
+- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check)
+- [Carrier performance review](https://fullypowered.ai/workflows/carrier-performance-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-bill-of-lading-field-check&from=gh-logistics-bill-of-lading-field-check).

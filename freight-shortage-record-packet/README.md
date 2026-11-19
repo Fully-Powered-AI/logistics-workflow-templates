@@ -1,10 +1,17 @@
 # Freight shortage record packet
 
-When a receiver reports missing or damaged freight, the claims coordinator gets one packet lining up dispatch quantities, warehouse scans, bill of lading, proof of delivery, photos and the customer report, with each unanswered question listed. It assigns no fault and sends nothing.
+When freight arrives short or damaged, get one packet lining up dispatch, scans, bill of lading and delivery records. It assigns no fault; people decide.
 
-*Workflow template · Logistics and trade · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/freight-shortage-record-packet/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Freight shortage record packet on our website](https://fullypowered.ai/workflows/freight-shortage-record-packet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/freight-shortage-record-packet/?from=gh-freight-shortage-record-packet)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Logistics and trade · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/freight-shortage-record-packet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet)*
 
 ## The outcome
 
@@ -42,15 +49,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Customer support and service](https://fullypowered.ai/functions/customer-support-and-service/): the person answering the receiver has the facts in one place before replying.
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/): the warehouse and transport records tied to one shipment.
-- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/): freight handed to carriers, where the paper is spread across several desks.
-- [Ecommerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/): bulk orders shipped from a warehouse to a store or a trade customer.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/): finished goods sent to customers on pallets.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): when the packet is assembled by hand from five systems.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when reports arrive faster than one person can pull the records.
+- [Customer support and service](https://fullypowered.ai/functions/customer-support-and-service/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet): the person answering the receiver has the facts in one place before replying.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet): the warehouse and transport records tied to one shipment.
+- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet): freight handed to carriers, where the paper is spread across several desks.
+- [Ecommerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet): bulk orders shipped from a warehouse to a store or a trade customer.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet): finished goods sent to customers on pallets.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet): when the packet is assembled by hand from five systems.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet): when reports arrive faster than one person can pull the records.
 
-It prepares the record for one shipment after a report. Working out where a production batch went is [batch distribution trace](https://fullypowered.ai/workflows/batch-distribution-trace/). Applying your policy to a complaint and setting out a refund for approval is [complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/). Checking the papers before goods leave is [shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/).
+It prepares the record for one shipment after a report. Working out where a production batch went is [batch distribution trace](https://fullypowered.ai/workflows/batch-distribution-trace/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet). Applying your policy to a complaint and setting out a refund for approval is [complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet). Checking the papers before goods leave is [shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet).
 
 ## What has to change for your company
 
@@ -92,10 +99,10 @@ Testing in your environment means running it on a recent report your claims coor
 
 ## Related workflow templates
 
-- [Complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/)
-- [Batch distribution trace](https://fullypowered.ai/workflows/batch-distribution-trace/)
-- [Shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/)
+- [Complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet)
+- [Batch distribution trace](https://fullypowered.ai/workflows/batch-distribution-trace/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet)
+- [Shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-freight-shortage-record-packet&from=gh-freight-shortage-record-packet).

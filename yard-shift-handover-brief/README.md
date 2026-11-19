@@ -1,10 +1,17 @@
 # Yard shift handover brief
 
-The outgoing yard or warehouse lead hands the incoming lead one brief: where each trailer stands, how long it has been on site, which dock issues are open and who follows up on each. No trailer is moved and no appointment is changed.
+One handover brief with every trailer's status and dwell time, open dock issues and a follow-up owner for each. People decide; no trailer is moved.
 
-*Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/yard-shift-handover-brief/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Yard shift handover brief on our website](https://fullypowered.ai/workflows/yard-shift-handover-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/yard-shift-handover-brief/?from=gh-logistics-yard-shift-handover-brief)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/yard-shift-handover-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief)*
 
 ## The outcome
 
@@ -41,15 +48,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/): the daily handover that keeps yard control, the dock and dispatch working from the same facts.
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/): the trailers, loads and dock doors where stock enters and leaves.
-- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/): yards and cross-dock sites where trailers wait between gate, door and dispatch.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/): plants with a shipping and receiving yard that changes hands between shifts.
-- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/): fulfilment sites with inbound trailers waiting for a door.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): when the handover lives in a notebook and a conversation at the gate.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): when more trailers pass through than one lead can hold in their head.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief): the daily handover that keeps yard control, the dock and dispatch working from the same facts.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief): the trailers, loads and dock doors where stock enters and leaves.
+- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief): yards and cross-dock sites where trailers wait between gate, door and dispatch.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief): plants with a shipping and receiving yard that changes hands between shifts.
+- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief): fulfilment sites with inbound trailers waiting for a door.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief): when the handover lives in a notebook and a conversation at the gate.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief): when more trailers pass through than one lead can hold in their head.
 
-It covers one yard and one shift change. An office's weekly list of open matters is [weekly open matter check](https://fullypowered.ai/workflows/weekly-open-matter-check/). The record that passes a client from the seller to the account manager is [account handoff](https://fullypowered.ai/workflows/account-handoff/). The comparison of one finished order's papers with its quantities is [shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/).
+It covers one yard and one shift change. An office's weekly list of open matters is [weekly open matter check](https://fullypowered.ai/workflows/weekly-open-matter-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief). The record that passes a client from the seller to the account manager is [account handoff](https://fullypowered.ai/workflows/account-handoff/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief). The comparison of one finished order's papers with its quantities is [shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief).
 
 ## What has to change for your company
 
@@ -92,10 +99,10 @@ Testing in your environment means running it on a past shift your leads remember
 
 ## Related workflow templates
 
-- [Weekly open-matter check](https://fullypowered.ai/workflows/weekly-open-matter-check/)
-- [Account handoff](https://fullypowered.ai/workflows/account-handoff/)
-- [Shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/)
+- [Weekly open-matter check](https://fullypowered.ai/workflows/weekly-open-matter-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief)
+- [Account handoff](https://fullypowered.ai/workflows/account-handoff/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief)
+- [Shipment documentation check](https://fullypowered.ai/workflows/shipment-documentation-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief).
