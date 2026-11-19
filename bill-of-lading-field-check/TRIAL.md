@@ -1,10 +1,10 @@
-# Bill of lading field check: tried on its invented example
+# Bill of lading field check: tried on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md`: an invented forwarder, shipper, consignee, booking and containers. No client data was used. The run followed the instruction block and output format in `member/template.md` exactly, and was made before the example's own output was read. The assistant that ran it had not written the template. The example's output was revised after the run, and the template's wording was clarified on the two points noted below; the output recorded here is exactly what the run produced.
+The inputs were the example in `public/example.md`: an illustrative forwarder, shipper, consignee, booking and containers. No client data was used. The run followed the instruction block and output format in `member/template.md` exactly, and was made before the example's own output was read. The assistant that ran it had not written the template. The example's output was revised after the run, and the template's wording was clarified on the two points noted below; the output recorded here is exactly what the run produced.
 
 ## Inputs used
 

@@ -8,7 +8,7 @@ Check a carrier invoice line by line against the shipment export and rate confir
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Logistics and trade · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/carrier-freight-invoice-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check)*
@@ -39,7 +39,7 @@ The headers of each file are checked first. If one does not match, the work stop
 
 One page in a fixed order: data checks, totals that tie to the invoice, each line in question with its facts, the matched lines, the waiting-time facts, and the decisions for accounts payable. A section with nothing in it says "None." The last lines say what was not supplied or not checked, and that a match is not authority to pay.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -65,7 +65,7 @@ Checking supplier bills for goods and services before a payment run is [supplier
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. Any edits made after the trial have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template in its own words. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026, and the record is published with it. Any edits made after the trial have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on invoices your freight auditor has already checked by hand, plus hard cases written in advance, each with its expected behavior: a renamed column, a repeated line, a charge on a shipment not in the export, a detention charge with no departure time, a credit line. The freight auditor checks every figure against the invoice and the rate confirmation before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-carrier-freight-invoice-check&from=gh-carrier-freight-invoice-check) describes the record we keep.
 
@@ -73,13 +73,13 @@ Testing in your environment means running it on invoices your freight auditor ha
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

@@ -1,10 +1,10 @@
-# Inbound receiving exception trace: trial on the invented example
+# Inbound receiving exception trace: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs are the invented example in `public/example.md` (its settings, notice ASN-4410, packing list PL-8830, scan export and item master). No client data was used. The assistant was given the fenced instruction block and the output format from `member/template.md` and the five invented inputs only, in a fresh session with no tools; it had not read the example's trace when it produced the output below. It did not write the template. This is the second run that day. The first run, on the earlier wording of the block, found the unclear points listed at the end; the block was then corrected, and the output below is the run on the corrected version. The corrections were made by the assistant that also ran this trial.
+The inputs are the example in `public/example.md` (its settings, notice ASN-4410, packing list PL-8830, scan export and item master). No client data was used. The assistant was given the fenced instruction block and the output format from `member/template.md` and the five sample inputs only, in a fresh session with no tools; it had not read the example's trace when it produced the output below. It did not write the template. This is the second run that day. The first run, on the earlier wording of the block, found the unclear points listed at the end; the block was then corrected, and the output below is the run on the corrected version. The corrections were made by the assistant that also ran this trial.
 
 ## What came out
 

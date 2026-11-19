@@ -8,7 +8,7 @@ After a missed dock slot, a supervisor gets one brief with the arrival times rep
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/missed-dock-recovery-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-missed-dock-recovery-brief&from=gh-logistics-missed-dock-recovery-brief)*
@@ -41,7 +41,7 @@ One brief in a fixed order: the appointment record, where things stand now, ever
 
 Every minute count can be checked with a clock and the reports. Nothing is sent, booked or changed, and no recovery is chosen.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -65,7 +65,7 @@ It looks at one inbound truck and one missed slot. The review of orders that hav
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. It has not yet been tested in a client environment.
+FullyPowered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026, and the record is published with it. It has not yet been tested in a client environment.
 
 Testing in your environment means running it on a missed appointment your supervisor remembers well, plus cases written in advance with their expected results: a renamed column, two sources giving arrival times far apart, a receiver cutoff that differs from the record, a driver saying the dock will accept the truck while the receiver says it has not agreed, a blank fee term. The supervisor checks every time and every minute count against the reports before anyone acts.
 
@@ -73,13 +73,13 @@ Testing in your environment means running it on a missed appointment your superv
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

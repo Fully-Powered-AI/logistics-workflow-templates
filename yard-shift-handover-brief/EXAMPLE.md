@@ -1,6 +1,6 @@
-# Yard shift handover brief: an invented example
+# Yard shift handover brief: an example
 
-*Illustrative example with invented data.* The business, the carriers, the trailers, the loads, the people and every time below are invented. The business is an invented regional distributor, called the Depot here. The outgoing lead asks for the brief at 13:58 on Tuesday 10 November 2026, for the shift change at 14:00. Carriers are named by letter and people by role.
+*Illustrative example with sample data.* The business, the carriers, the trailers, the loads, the people and every time below are illustrative. The business is an illustrative regional distributor, called the Depot here. The outgoing lead asks for the brief at 13:58 on Tuesday 10 November 2026, for the shift change at 14:00. Carriers are named by letter and people by role.
 
 The inputs come first, in full, so the template can be run on them. The brief follows.
 

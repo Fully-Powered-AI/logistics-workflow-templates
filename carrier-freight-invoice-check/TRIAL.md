@@ -1,10 +1,10 @@
-# Carrier freight invoice check: one trial on its invented example
+# Carrier freight invoice check: one trial on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs are the invented example in `public/example.md` (Alder Mill Home Goods, Carrier A, invoice INV-A-9142). No client data was used. The model that ran the trial did not write the template. It read the template and only the invented inputs of the example, followed the instruction block and the output format as written, and read the example's output afterwards.
+The inputs are the example in `public/example.md` (Alder Mill Home Goods, Carrier A, invoice INV-A-9142). No client data was used. The model that ran the trial did not write the template. It read the template and only the sample inputs of the example, followed the instruction block and the output format as written, and read the example's output afterwards.
 
 ## Inputs used
 
@@ -70,4 +70,4 @@ Every figure traces to invoice INV-A-9142 and the shipment export, rate confirma
   - A matched detention line that is over the free minutes (line 10, 75 minutes over) is paid as Matched. The template says not to judge whether the charge is owed, and it follows that rule, but the matched-lines decision in this run does not mention it. The waiting-time section carries the fact.
 - After the trial, four of these observations were answered in the template and the example, and the changes were not run again: the note on a Shipment not found line (step 7), the explanation of the gap between the two figures (step 9), the confirmed amount on a Support missing line (the format) and the matched detention line over the free minutes (step 12, now also in decision 1 of the example). The recorded output above is unchanged.
 - Nothing in the run asked for a password, sent anything, or changed a record.
-- This was one run by one model on one invented example. It shows that the instructions can be followed to a complete, tying-out page. It is not a test in a client environment, and the template's acceptance tests were not run.
+- This was one run by one model on one example. It shows that the instructions can be followed to a complete, tying-out page. It is not a test in a client environment, and the template's acceptance tests were not run.

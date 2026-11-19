@@ -1,6 +1,6 @@
-# Missed dock window recovery brief: an invented example
+# Missed dock window recovery brief: an example
 
-*Illustrative example with invented data.* The site, the carrier, the shipment, the times and every statement below are invented. The site is an invented distribution depot, called the Depot here. The carrier is Carrier A. People are referred to by role. The dispatch supervisor asks for the brief at 14:20 on Tuesday 10 November 2026, after a truck has missed its appointment.
+*Illustrative example with sample data.* The site, the carrier, the shipment, the times and every statement below are illustrative. The site is an illustrative distribution depot, called the Depot here. The carrier is Carrier A. People are referred to by role. The dispatch supervisor asks for the brief at 14:20 on Tuesday 10 November 2026, after a truck has missed its appointment.
 
 The inputs come first, in full, so the template can be run on them. The brief follows.
 

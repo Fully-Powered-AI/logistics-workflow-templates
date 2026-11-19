@@ -1,6 +1,6 @@
-# Bill of lading field check: an invented example
+# Bill of lading field check: an example
 
-*Illustrative example with invented data.* The forwarder, the shipper, the consignee, the notify party, the carrier, the vessel, the booking, the container and seal numbers, the quantities and every date below are invented. The ports are real places used only as labels. The forwarder is an invented small freight forwarder, called the Forwarder here. Its documentation specialist asks for the check on Tuesday 10 November 2026, when the carrier's draft arrives for one booking of two containers.
+*Illustrative example with sample data.* The forwarder, the shipper, the consignee, the notify party, the carrier, the vessel, the booking, the container and seal numbers, the quantities and every date below are illustrative. The ports are real places used only as labels. The forwarder is an illustrative small freight forwarder, called the Forwarder here. Its documentation specialist asks for the check on Tuesday 10 November 2026, when the carrier's draft arrives for one booking of two containers.
 
 The inputs come first, in full, so the template can be run on them. The check follows.
 

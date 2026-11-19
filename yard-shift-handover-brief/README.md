@@ -8,7 +8,7 @@ One handover brief with every trailer's status and dwell time, open dock issues 
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Logistics and trade · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/yard-shift-handover-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=logistics-yard-shift-handover-brief&from=gh-logistics-yard-shift-handover-brief)*
@@ -44,7 +44,7 @@ One page in a fixed order: a check of each export's age, the trailers with their
 
 Every figure can be checked against the files you supplied, and each item names the record it comes from.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -70,7 +70,7 @@ It covers one yard and one shift change. An office's weekly list of open matters
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record is published with it. Edits made after that trial (the rule for which items go to dispatch, follow-up numbering, one question per item, dates on every time, the example's timeline and some clarifying wording) have not been run again. It has not yet been tested in a client environment.
+FullyPowered AI wrote this workflow template in its own words from its own map of the work, with no third-party text. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026; the record is published with it. Edits made after that trial (the rule for which items go to dispatch, follow-up numbering, one question per item, dates on every time, the example's timeline and some clarifying wording) have not been run again. It has not yet been tested in a client environment.
 
 Testing in your environment means running it on a past shift your leads remember well, plus hard cases written in advance with their expected results: a renamed column, a trailer the gate log shows as departed, an unknown location, a note with no owner, a stale appointment board. The outgoing lead checks every item against the files before anyone relies on it.
 
@@ -78,13 +78,13 @@ Testing in your environment means running it on a past shift your leads remember
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

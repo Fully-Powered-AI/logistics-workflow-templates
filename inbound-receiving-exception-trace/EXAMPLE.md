@@ -1,6 +1,6 @@
-# Inbound receiving exception trace: an invented example
+# Inbound receiving exception trace: an example
 
-*Illustrative example with invented data.* The business, the supplier, the item codes, the lot numbers, the pallets, the quantities and every date below are invented. The business is an invented small distributor of garden and hardware goods, called the Depot here. On the morning of Tuesday 10 November 2026 a delivery from Supplier A has been unloaded and scanned, and the receiving supervisor sees that the counts do not match the advance shipment notice. People are referred to by role.
+*Illustrative example with sample data.* The business, the supplier, the item codes, the lot numbers, the pallets, the quantities and every date below are illustrative. The business is an illustrative small distributor of garden and hardware goods, called the Depot here. On the morning of Tuesday 10 November 2026 a delivery from Supplier A has been unloaded and scanned, and the receiving supervisor sees that the counts do not match the advance shipment notice. People are referred to by role.
 
 The inputs come first, in full, so the template can be run on them. The trace follows.
 

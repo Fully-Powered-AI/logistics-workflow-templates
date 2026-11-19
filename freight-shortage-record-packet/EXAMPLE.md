@@ -1,6 +1,6 @@
-# Freight shortage record packet: an invented example
+# Freight shortage record packet: an example
 
-*Illustrative example with invented data.* The business, the customer, the item codes, the document numbers, the quantities and every date below are invented. The business is an invented regional distributor, called the Distributor here. On the morning of Tuesday 10 November 2026 its claims coordinator asks for the packet on one delivered shipment, SH-2210, after the receiving lead at Customer A reported a shortage and damage on the day after delivery. People are referred to by role.
+*Illustrative example with sample data.* The business, the customer, the item codes, the document numbers, the quantities and every date below are illustrative. The business is an illustrative regional distributor, called the Distributor here. On the morning of Tuesday 10 November 2026 its claims coordinator asks for the packet on one delivered shipment, SH-2210, after the receiving lead at Customer A reported a shortage and damage on the day after delivery. People are referred to by role.
 
 The inputs come first, in full, so the template can be run on them. The packet follows.
 

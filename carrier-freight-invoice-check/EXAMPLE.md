@@ -1,6 +1,6 @@
-# Carrier freight invoice check: an invented example
+# Carrier freight invoice check: an example
 
-*Illustrative example with invented data.* The company, the carrier, the shipments, the lanes and every charge below are made up. Carrier A is an invented name, not a real carrier. The company is Alder Mill Home Goods, an invented company; roles are used instead of names. The settings are the invented company's: invoice INV-A-9142 from Carrier A, dated 2026-11-02, checked on 2026-11-04 by the freight auditor, run by the freight audit clerk, for the accounts payable lead. Currency is dollars. The tolerance is 0.00, so any difference is listed. The rate confirmation states 120 free waiting minutes.
+*Illustrative example with sample data.* The company, the carrier, the shipments, the lanes and every charge below are made up. Carrier A is a sample name, not a real carrier. The company is Alder Mill Home Goods, an illustrative company; roles are used instead of names. The settings are the illustrative company's: invoice INV-A-9142 from Carrier A, dated 2026-11-02, checked on 2026-11-04 by the freight auditor, run by the freight audit clerk, for the accounts payable lead. Currency is dollars. The tolerance is 0.00, so any difference is listed. The rate confirmation states 120 free waiting minutes.
 
 ## What the freight audit clerk supplies
 

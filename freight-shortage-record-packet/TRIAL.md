@@ -1,10 +1,10 @@
-# Freight shortage record packet: trial on the invented example
+# Freight shortage record packet: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Sonnet 5.5 (claude-sonnet-5-5). It did not write the template.
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (shipment SH-2210: settings, customer report, dispatch lines, warehouse scans, bill of lading, proof of delivery, photo log). No client data was used. The template's fenced instruction block and output format were followed as written, and the packet was produced before the example's own output was read.
+The inputs were the example in `public/example.md` (shipment SH-2210: settings, customer report, dispatch lines, warehouse scans, bill of lading, proof of delivery, photo log). No client data was used. The template's fenced instruction block and output format were followed as written, and the packet was produced before the example's own output was read.
 
 ## What came out
 
@@ -78,5 +78,5 @@ Draft for the claims coordinator. Nothing has been sent, filed, changed or decid
   - A conflicting figure at both the bill of lading and the proof of delivery on one line is listed as two entries; the template says one entry per stage, so this follows it, but the "first stage that differs" line shows only the earlier one.
   - The format gives no clear place for the "Defaults used" wording when only some settings are defaults beyond "all / none / list", though this run did not need it.
   - Step 11 says one question block for each reported line, including a line with no discrepancy (TBL-220); the content of such a block is left to the assistant.
-- **Edits made after this run:** the example's three questions were reworded afterwards (for instance "Who wrote that remark, and when?", "Is the 6-unit difference known to the customer?" and "Are the original images available?"), so the question wording this run is compared with is the earlier wording. The invented company name was also changed from "the Depot" to "the Distributor" in the example and, as a plain name substitution, in the header line above. Neither change was run again.
-- **Limits of this trial:** one run, on one small invented shipment, by one model. It does not test the stop conditions, the unit-differs path, tolerance, whole-shipment reports or the declining rules. It says nothing about how the template performs on a real client's exports.
+- **Edits made after this run:** the example's three questions were reworded afterwards (for instance "Who wrote that remark, and when?", "Is the 6-unit difference known to the customer?" and "Are the original images available?"), so the question wording this run is compared with is the earlier wording. The illustrative company name was also changed from "the Depot" to "the Distributor" in the example and, as a plain name substitution, in the header line above. Neither change was run again.
+- **Limits of this trial:** one run, on one small illustrative shipment, by one model. It does not test the stop conditions, the unit-differs path, tolerance, whole-shipment reports or the declining rules. It says nothing about how the template performs on a real client's exports.

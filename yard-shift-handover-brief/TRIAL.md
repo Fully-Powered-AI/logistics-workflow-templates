@@ -1,10 +1,10 @@
-# Yard shift handover brief: one run on the invented example
+# Yard shift handover brief: one run on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example's own: the settings, the yard export, the gate log, the appointment board, the exception notes and the confirmed dispatch updates in `public/example.md`. No client data was used. This was one run, by an assistant that did not write the template, following the instruction block and the output format.
+The inputs were the example's own: the settings, the yard export, the gate log, the appointment board, the exception notes and the confirmed dispatch updates in `public/example.md`. No client data was used. This was one run, by an assistant that did not write the template, following the instruction block and the output format.
 
 One caveat about how the run was done. The template and the example file were opened in a single step, and the display cut off partway through the example's brief. The assistant therefore saw the example's source-freshness lines, the trailer list, the dwell records and the start of the appointments before it produced its own output. The rest of the output was produced from the template and the inputs and compared afterwards. Treat the agreement on those first sections as weaker evidence than the agreement on the later ones.
 

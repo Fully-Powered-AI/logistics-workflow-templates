@@ -250,4 +250,4 @@ refused, or write to the supplier. The receiving supervisor decides.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its invented example in Claude on 10 November 2026; the record is published with the entry (public/trial.md). That run found some unclear points in the instructions, which this version corrects (the rule for a lot with no notice line, the date test, blank carton and pallet figures, the packing list wording for a line not on the notice). Not yet tested in a client environment or as a packaged version.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its example in Claude on 10 November 2026; the record is published with the entry (public/trial.md). That run found some unclear points in the instructions, which this version corrects (the rule for a lot with no notice line, the date test, blank carton and pallet figures, the packing list wording for a line not on the notice). Not yet tested in a client environment or as a packaged version.

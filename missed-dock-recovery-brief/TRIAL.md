@@ -1,10 +1,10 @@
-# Trial: Missed dock window recovery brief, run once on its invented example
+# Trial: Missed dock window recovery brief, run once on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs are the invented example in [example.md](example.md): the settings, the one-row appointment record and the six reports for shipment S-4471. No client data was used. The run did not read the published brief until its own was finished. It followed the instruction block and the output format in the member template, as written.
+The inputs are the example in [example.md](example.md): the settings, the one-row appointment record and the six reports for shipment S-4471. No client data was used. The run did not read the published brief until its own was finished. It followed the instruction block and the output format in the member template, as written.
 
 ## What came out
 
@@ -76,11 +76,11 @@ Draft for the dispatch supervisor's decision. Nothing has been sent, booked or c
 6. **The question wording.** Step 12 gives each question's trigger and topic but no wording, so the run chose its own; the facts-then-question order in step 12 and the output format ("[Heading.] [The facts, briefly.] [The question.]") was followed loosely in the run. The format asks for a heading, then facts, then the question; the run's version did not repeat this order exactly. A reviewer may want the format to say this more firmly.
 7. **Question 5 when several cutoffs exist.** "A latest arrival time falls after a cutoff" does not say whether to ask when the arrival is after only the stated cutoff, not the record cutoff. The run asked, as the example does.
 8. **Question 4 and several sources.** The trigger fires if any latest arrival is after the window end; the template does not say how to phrase this when all are, so the run said "every latest arrival time".
-9. **The version notes are now out of date.** They say the template was "Not yet tried on its invented example". The acceptance tests are also marked "None has been run", and this trial ran only the example, not those eleven tests.
+9. **The version notes are now out of date.** They say the template was "Not yet tried on its example". The acceptance tests are also marked "None has been run", and this trial ran only the example, not those eleven tests.
 
 ### Shortcomings of this trial
 
-- It is one run by one model, on one invented example. It does not test the stop conditions, the declines, the renamed-column case, an arrival across midnight or blank fee terms.
+- It is one run by one model, on one example. It does not test the stop conditions, the declines, the renamed-column case, an arrival across midnight or blank fee terms.
 - The run was not independent of the template's author in one respect: the model followed the template's own wording, so the check shows the template can be followed to the published result, not that every real dispatcher would reach it.
 - Nothing was tried in a client environment.
 

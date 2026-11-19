@@ -215,4 +215,4 @@ a carrier or adjust a figure, decline and name the role that does it.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its invented example in Claude on 10 November 2026; the record is published with it. Edits made after the trial, including a stop rule for duplicate records, a mention of matched detention over the free minutes and the no-rate-confirmation wording in the instruction block, were not run again. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its example in Claude on 10 November 2026; the record is published with it. Edits made after the trial, including a stop rule for duplicate records, a mention of matched detention over the free minutes and the no-rate-confirmation wording in the instruction block, were not run again. Not yet tested in a client environment.
